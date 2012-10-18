@@ -16,6 +16,7 @@ Installation
 ------------
 
 Requirements:
+
 * Python >= 3.0
 * VCSes which you actually use
 
@@ -32,6 +33,10 @@ Scan directory for repositories::
 
 This will save a configuration file ``config.rept`` with found repositories.
 Feel free to modify this file to suit your needs.
+
+Clone all missing repositories::
+
+   $ rept clone
 
 Fetch changes to all repositories::
 
